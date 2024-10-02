@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Scolaire - Accueil</title>
+    <link rel="stylesheet" href="../static/style.css"> <!-- Le lien vers le fichier CSS externe -->
+</head>
+<body>
+
+    <!-- En-tête de la page -->
+   
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="/etudiant">Étudiants</a>
+        <a href="/prof">Profs</a>
+        <a href="/absences">Absences</a>
+        <a href="/emplois">Emploi du Temps</a>
+        <a href="/para">Paramètres</a>
+    </nav>
+    <header>
+        <h1>
+            Bienvenue dans notre école
+            <img class="logo" src="../static/logo.jpg" alt="Logo de l'école">
+        </h1>
+    </header>
+
+
+    <h1>Liste des Étudiants</h1>
+    <ul>
+        {% for student in students %}
+        <li>{{ student[1] }} (Absences : {{ student[2] }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

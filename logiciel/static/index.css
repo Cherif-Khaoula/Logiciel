@@ -1,0 +1,45 @@
+        h1{
+             text-align: center;
+          }
+            
+         .main {
+             padding: 20px;
+         }
+         
+         .categories {
+             display: flex;
+             justify-content: space-around;
+             margin-top: 20px;
+         }
+         
+         .category {
+             background-color: #f4f4f4;
+             border: 1px solid #ccc;
+             padding: 20px;
+             width: 30%; /* Ajustez la largeur selon vos besoins */
+             text-align: center;
+         }
+         
+         .category h2 {
+             margin-top: 0;
+         }
+         .category img {
+             width: 200px; /* Changer la taille selon vos besoins */
+             height: 200px; /* Changer la taille selon vos besoins */
+             object-fit: cover; /* Pour conserver le ratio et couvrir complètement le conteneur */
+             display: block;
+             margin: 0 auto 10px;
+         }
+          
+         button {
+            padding: 10px;
+            background-color: #F2994A;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          button:hover {
+            background-color: #E0743B; /* Changement de couleur au survol */
+          }

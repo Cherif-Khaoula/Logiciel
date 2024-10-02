@@ -1,0 +1,69 @@
+body {
+             font-family: Arial, sans-serif;
+             margin: 0;
+             padding: 0;
+             
+         }
+           header {
+             background-color: #1E2A38;
+             color: white;
+             padding: 10px;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+           }
+           nav ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             display: flex;
+           }
+           
+           nav li {
+             margin-right: 20px;
+           }
+           
+           nav a {
+             text-decoration: none;
+             color: white;
+             font-weight: bold;
+             font-size: 20px;
+           }
+           
+           nav a:hover {
+             color: #F2994A; /* Couleur au survol */
+           }
+           
+           .search-container {
+             display: flex;
+             max-width: 400px;
+           }
+           
+           #searchInput {
+             flex: 1;
+             padding: 10px;
+             border: none;
+             border-radius: 5px;
+             font-size: 16px;
+           }
+           .search-container button {
+            padding: 10px;
+            background-color: #F2994A;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          .search-container button:hover {
+            background-color: #E0743B; /* Changement de couleur au survol */
+          }
+           img.kh {
+             display: block;
+             width: 60px; /* Ajustez la taille de l'image selon vos besoins */
+             height: 60px; /* Ajustez la taille de l'image selon vos besoins */
+             border-radius: 50%; /* Arrondit les coins pour créer un cercle */
+             margin-left: 20px;
+         }
+         
+         
